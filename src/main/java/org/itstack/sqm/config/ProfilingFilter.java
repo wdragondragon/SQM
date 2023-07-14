@@ -20,6 +20,7 @@ public class ProfilingFilter {
         exceptPackagePrefix.add("org/jetbrains/");
         exceptPackagePrefix.add("org/slf4j");
         exceptPackagePrefix.add("com/alibaba");
+        exceptPackagePrefix.add("jdk/");
         // 不注入监控工程
         exceptPackagePrefix.add("org/itstack/sqm");
 
