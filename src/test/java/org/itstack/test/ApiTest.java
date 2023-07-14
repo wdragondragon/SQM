@@ -1,7 +1,7 @@
 package org.itstack.test;
 
-import org.itstack.sqm.asm.probe.ProfilingAspect;
-import org.omg.PortableInterceptor.INACTIVE;
+//import org.itstack.sqm.asm.probe.ProfilingAspect;
+//import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +22,7 @@ public class ApiTest {
 
     public static void main(String[] args) throws InterruptedException {
         ApiTest apiTest = new ApiTest();
+        apiTest.method01();
 //        int i = apiTest.strToInt1("453", 123);
 //        System.out.println(i);
 //        String res01 = apiTest.queryUserInfo(111, 17, "对象类");
